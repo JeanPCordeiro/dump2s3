@@ -4,6 +4,7 @@ A docker container to dump MySQL Database to AWS S3 Bucket
 
 Usage with docker-compose :
 
+```
 version: '3.8'
 services:
   DB:
@@ -49,3 +50,4 @@ services:
 
 volumes:
     DB-data: {}
+```
